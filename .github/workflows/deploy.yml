@@ -19,5 +19,5 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Deploy to Server
-        run: ssh mccoinadnib@192.168.70.18 'bash /home/mccoinadmin/CI-CD/deploy.sh'
+        run: ssh mccoinadmin@192.168.70.18 'bash /home/mccoinadmin/CI-CD/deploy.sh'
         
