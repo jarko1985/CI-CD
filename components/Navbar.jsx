@@ -110,8 +110,7 @@ const Navbar = () => {
                       </NavigationMenuLink>
                     </li>
                     <Link href="/">
-                      Re-usable components built using Radix UI and Tailwind
-                      CSS.
+                      Made with CI/CD
                     </Link>
 
                     <Link href="#">
